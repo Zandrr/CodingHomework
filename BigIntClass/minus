@@ -1,0 +1,86 @@
+char* temp1 = firstInt.getBigIntArray();
+char* temp2 = secondInt.getBigIntArray();
+char* diffOut;
+int Index;
+
+//set sumOut array size
+if (strlen(temp1)>strlen(temp2))
+{
+	Index = strlen(temp1);
+	diffOut = new char [Index];
+
+}
+	else
+	{
+		Index = strlen(temp2);
+		diffOut = new char [Index];
+	}
+diffOut[Index]='\0';
+
+int Index1, Index2, diff;
+bool carry = false;
+int carryTen = 0;
+bool negCheck = false;
+Index1 = strlen(temp1)-1;
+Index2 = strlen(temp2)-1;
+
+while (Index1 >= 0 || Index2 >= 0)
+{	
+	if(carry){
+		if(temp2[Index2-1]!=0 || temp1[Index1-1]!=0){
+			diff = ((temp2[Index2] - '0') -1) - (temp1[Index1] - '0');
+			carry = false;	
+		}
+		else{
+			diff = abs((temp2[Index2]-'0') - (temp1[Index1]-'0'));
+			carry = false;
+			negCheck = true;
+		}
+	}
+//if the second number is bigger
+else if(Index1 < 0 && Index2 >= 1)
+{
+	diff = (temp2[Index2]-'0')-1; 
+}
+//else if the first number is bigger
+else if(Index1 >= 1 && Index2 < 0)
+{
+	diff = (temp1[Index1]-'0')-1;
+}
+
+//otherwise add the two current index2
+else
+{
+	if((temp2[Index2]-'0') < (temp1[Index1]-'0')){
+		carryTen = (temp2[Index2]-'0') + 10;
+		diff = carryTen - temp1[Index1];
+		carry = true;
+	}
+	else{
+		diff = (temp2[Index2]-'0') - (temp1[Index1]-'0');
+	}
+}
+//increment the involved numbers
+Index1--;
+Index2--;
+//put solution to 
+diffOut[Index-1] = diff + '0';
+Index--;
+}
+//after done adding final check to expand the sumOut array   
+if (negCheck){
+	char* diffOutTemp = new char [strlen(diffOut)+2];
+	diffOutTemp[strlen(diffOut)+1]='\0';
+	diffOutTemp[0] = '-';
+		for (unsigned int i=0; i < strlen(diffOut)+1; i++){
+			diffOutTemp[i+1] = diffOut[i];
+			cout << diffOutTemp[i] << endl;
+}
+delete[] diffOut;
+diffOut=diffOutTemp;
+delete[] diffOutTemp;
+}
+//create the bigInt output and return it
+bigInt bigOut(diffOut);
+return bigOut;
+}
