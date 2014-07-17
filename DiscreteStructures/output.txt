@@ -1,0 +1,421 @@
+calling nearest neighbor with 0
+0
+The cost to go to city 7 is 2
+
+ our total is:  2
+The cost to go to city 0 is 2
+
+ our total is:  4
+The cost to go to city 8 is 5
+
+ our total is:  9
+The cost to go to city 1 is 4
+
+ our total is:  13
+The cost to go to city 3 is 9
+
+ our total is:  22
+The cost to go to city 2 is 11
+
+ our total is:  33
+The cost to go to city 5 is 1
+
+ our total is:  34
+The cost to go to city 9 is 24
+
+ our total is:  58
+The cost to go to city 6 is 34
+
+ our total is:  92
+The cost to go to city 4 is 53
+
+ our total is:  145
+The cost to go to city 0 is 12
+
+ our total is:  157
+elapsed time for nearest nieghbor algorithm:  0.001489
+
+average for nearest neighbor is:  0.009328
+
+
+
+alling NNrepeated
+0
+The cost to go to city 7 is 2
+
+ our total is:  2
+The cost to go to city 0 is 2
+
+ our total is:  4
+The cost to go to city 8 is 5
+
+ our total is:  9
+The cost to go to city 1 is 4
+
+ our total is:  13
+The cost to go to city 3 is 9
+
+ our total is:  22
+The cost to go to city 2 is 11
+
+ our total is:  33
+The cost to go to city 5 is 1
+
+ our total is:  34
+The cost to go to city 9 is 24
+
+ our total is:  58
+The cost to go to city 6 is 34
+
+ our total is:  92
+The cost to go to city 4 is 53
+
+ our total is:  145
+The cost to go to city 0 is 12
+
+ our total is:  157
+elapsed time for nearest nieghbor algorithm:  0.001534
+1
+The cost to go to city 8 is 4
+
+ our total is:  4
+The cost to go to city 7 is 3
+
+ our total is:  7
+The cost to go to city 0 is 2
+
+ our total is:  9
+The cost to go to city 1 is 8
+
+ our total is:  17
+The cost to go to city 3 is 9
+
+ our total is:  26
+The cost to go to city 2 is 11
+
+ our total is:  37
+The cost to go to city 5 is 1
+
+ our total is:  38
+The cost to go to city 9 is 24
+
+ our total is:  62
+The cost to go to city 6 is 34
+
+ our total is:  96
+The cost to go to city 4 is 53
+
+ our total is:  149
+The cost to go to city 1 is 33
+
+ our total is:  182
+elapsed time for nearest nieghbor algorithm:  0.001211
+2
+The cost to go to city 5 is 1
+
+ our total is:  1
+The cost to go to city 2 is 1
+
+ our total is:  2
+The cost to go to city 3 is 11
+
+ our total is:  13
+The cost to go to city 1 is 9
+
+ our total is:  22
+The cost to go to city 8 is 4
+
+ our total is:  26
+The cost to go to city 7 is 3
+
+ our total is:  29
+The cost to go to city 0 is 2
+
+ our total is:  31
+The cost to go to city 4 is 12
+
+ our total is:  43
+The cost to go to city 9 is 45
+
+ our total is:  88
+The cost to go to city 6 is 34
+
+ our total is:  122
+The cost to go to city 2 is 23
+
+ our total is:  145
+elapsed time for nearest nieghbor algorithm:  0.001453
+3
+The cost to go to city 1 is 9
+
+ our total is:  9
+The cost to go to city 8 is 4
+
+ our total is:  13
+The cost to go to city 7 is 3
+
+ our total is:  16
+The cost to go to city 0 is 2
+
+ our total is:  18
+The cost to go to city 4 is 12
+
+ our total is:  30
+The cost to go to city 3 is 44
+
+ our total is:  74
+The cost to go to city 2 is 11
+
+ our total is:  85
+The cost to go to city 5 is 1
+
+ our total is:  86
+The cost to go to city 9 is 24
+
+ our total is:  110
+The cost to go to city 6 is 34
+
+ our total is:  144
+The cost to go to city 3 is 16
+
+ our total is:  160
+elapsed time for nearest nieghbor algorithm:  0.001339
+4
+The cost to go to city 0 is 12
+
+ our total is:  12
+The cost to go to city 7 is 2
+
+ our total is:  14
+The cost to go to city 8 is 3
+
+ our total is:  17
+The cost to go to city 1 is 4
+
+ our total is:  21
+The cost to go to city 3 is 9
+
+ our total is:  30
+The cost to go to city 2 is 11
+
+ our total is:  41
+The cost to go to city 5 is 1
+
+ our total is:  42
+The cost to go to city 9 is 24
+
+ our total is:  66
+The cost to go to city 6 is 34
+
+ our total is:  100
+The cost to go to city 4 is 53
+
+ our total is:  153
+The cost to go to city 4 is 0
+
+ our total is:  153
+elapsed time for nearest nieghbor algorithm:  0.001277
+5
+The cost to go to city 2 is 1
+
+ our total is:  1
+The cost to go to city 5 is 1
+
+ our total is:  2
+The cost to go to city 3 is 13
+
+ our total is:  15
+The cost to go to city 1 is 9
+
+ our total is:  24
+The cost to go to city 8 is 4
+
+ our total is:  28
+The cost to go to city 7 is 3
+
+ our total is:  31
+The cost to go to city 0 is 2
+
+ our total is:  33
+The cost to go to city 4 is 12
+
+ our total is:  45
+The cost to go to city 9 is 45
+
+ our total is:  90
+The cost to go to city 6 is 34
+
+ our total is:  124
+The cost to go to city 5 is 26
+
+ our total is:  150
+elapsed time for nearest nieghbor algorithm:  0.001325
+6
+The cost to go to city 3 is 16
+
+ our total is:  16
+The cost to go to city 1 is 9
+
+ our total is:  25
+The cost to go to city 8 is 4
+
+ our total is:  29
+The cost to go to city 7 is 3
+
+ our total is:  32
+The cost to go to city 0 is 2
+
+ our total is:  34
+The cost to go to city 4 is 12
+
+ our total is:  46
+The cost to go to city 9 is 45
+
+ our total is:  91
+The cost to go to city 2 is 17
+
+ our total is:  108
+The cost to go to city 5 is 1
+
+ our total is:  109
+The cost to go to city 6 is 26
+
+ our total is:  135
+The cost to go to city 6 is 0
+
+ our total is:  135
+elapsed time for nearest nieghbor algorithm:  0.001329
+7
+The cost to go to city 0 is 2
+
+ our total is:  2
+The cost to go to city 7 is 2
+
+ our total is:  4
+The cost to go to city 8 is 3
+
+ our total is:  7
+The cost to go to city 1 is 4
+
+ our total is:  11
+The cost to go to city 3 is 9
+
+ our total is:  20
+The cost to go to city 2 is 11
+
+ our total is:  31
+The cost to go to city 5 is 1
+
+ our total is:  32
+The cost to go to city 9 is 24
+
+ our total is:  56
+The cost to go to city 6 is 34
+
+ our total is:  90
+The cost to go to city 4 is 53
+
+ our total is:  143
+The cost to go to city 7 is 30
+
+ our total is:  173
+elapsed time for nearest nieghbor algorithm:  0.002097
+8
+The cost to go to city 7 is 3
+
+ our total is:  3
+The cost to go to city 0 is 2
+
+ our total is:  5
+The cost to go to city 8 is 5
+
+ our total is:  10
+The cost to go to city 1 is 4
+
+ our total is:  14
+The cost to go to city 3 is 9
+
+ our total is:  23
+The cost to go to city 2 is 11
+
+ our total is:  34
+The cost to go to city 5 is 1
+
+ our total is:  35
+The cost to go to city 9 is 24
+
+ our total is:  59
+The cost to go to city 6 is 34
+
+ our total is:  93
+The cost to go to city 4 is 53
+
+ our total is:  146
+The cost to go to city 8 is 28
+
+ our total is:  174
+elapsed time for nearest nieghbor algorithm:  0.001812
+9
+The cost to go to city 1 is 14
+
+ our total is:  14
+The cost to go to city 8 is 4
+
+ our total is:  18
+The cost to go to city 7 is 3
+
+ our total is:  21
+The cost to go to city 0 is 2
+
+ our total is:  23
+The cost to go to city 4 is 12
+
+ our total is:  35
+The cost to go to city 3 is 44
+
+ our total is:  79
+The cost to go to city 2 is 11
+
+ our total is:  90
+The cost to go to city 5 is 1
+
+ our total is:  91
+The cost to go to city 9 is 24
+
+ our total is:  115
+The cost to go to city 6 is 34
+
+ our total is:  149
+The cost to go to city 9 is 34
+
+ our total is:  183
+elapsed time for nearest nieghbor algorithm:  0.001782
+135
+
+elapsed time for nearest nieghbor repeated algorithm:  0.016845
+
+average for NNrepeated is:  0.130202
+
+
+calling exhaustiveSearch
+8.502675
+17.898627
+26.573096
+35.266992
+43.674755
+52.221598
+61.103969
+69.830635
+78.785996
+87.426956
+.
+.
+.
+.
+6000.456421
+.
+.
+.
+...then we segfaulted.
+
+The shortest path was produced by NNRepeated.  This is because it found the best solution based on our nearest neighbot algorithm.  The longest path was produced by nearestneighbor (depending on what value we call it with).  The average for NNrepeated is:  0.130202 for 10 runs.  The average for nearest neighbor is:  0.009328.  This makes sense becuase NNrepeated runs 10 times and nearest nieghbor runs once.  As for our exhaustive search.  It ran for a long time and then segfaulted.  This takes by far the longest to complete.
